@@ -1,0 +1,59 @@
+a.wikilink {
+    text-decoration: underline;
+}
+li.no_dot {
+    list-style-type: none;
+}
+.wy-nav-content {
+    max-width: unset;
+}
+
+.rst-content .section ul.task-list,
+.rst-content .section li.task-list-item {
+    list-style-type: none;
+    margin-left: 0;
+}
+.rst-content .section ul.task-list ul.task-list {
+    margin-left: 1rem;
+}
+.btn {
+    margin-bottom: 0.2rem;
+}
+.rst-content .section .docutils {
+    display: table;
+}
+.wy-menu-vertical header, .wy-menu-vertical p.caption {
+    margin-top: 1rem;
+}
+.rst-content blockquote {
+    border-left: 5px solid #404040;
+    padding-left: 12px;
+    margin-left: 0;
+}
+span.twemoji > svg, img.twemoji {
+    height: 1rem;
+    vertical-align: text-bottom;
+}
+
+
+
+
+dd {
+    margin-bottom: 6px;
+    border: none;
+    border-left: solid 3px #ccc;
+    background: #f0f0f0;
+    color: #555;
+}
+dd {
+    display: table;
+    margin: 6px 0;
+    font-size: 90%;
+    line-height: normal;
+    padding: 6px;
+    position: relative;
+}
+
+.rst-content .section .admonition ul {
+    margin-bottom: 0;
+}

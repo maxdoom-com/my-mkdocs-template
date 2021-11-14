@@ -1,0 +1,35 @@
+site_name: My mkdocs template
+site_url: http://localhost/ # might be ignored... i removed it from the template
+use_directory_urls: true
+site_dir: ./public_html/
+#nav:
+#  - index.md
+#  - "Foo"
+#    - foo/bar.md
+theme:
+  name: readthedocs
+  custom_dir: theme-overrides
+  titles_only: true
+extra_css:
+  - static/css/extra.css
+extra_javascript:
+  - static/js/page.js
+markdown_extensions:
+  - toc
+  - admonition
+  - fenced_code
+  - codehilite
+  - def_list
+  - wikilinks: { base_url: /_wiki/, html_class: btn btn-warning }
+  - meta
+  - attr_list
+  - pymdownx.tilde
+  - pymdownx.superfences:
+      custom_fences:
+        - { name: plain, class: plain, format: !!python/name:custom_fences.plain }
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+plugins:
+  - search
+  - macros
