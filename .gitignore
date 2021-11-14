@@ -1,5 +1,5 @@
 /env/
 /public_html/
-/__pycache__/
+__pycache__/
 /custom_fences/custom_fences.egg-info
 *.pyc
