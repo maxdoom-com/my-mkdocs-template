@@ -3,6 +3,7 @@ certifi==2021.5.30
 chardet==4.0.0
 click==8.0.1
 EditorConfig==0.12.3
+et-xmlfile==1.1.0
 ghp-import==2.0.1
 idna==2.10
 importlib-metadata==4.6.1
@@ -15,6 +16,7 @@ mkdocs==1.2.1
 mkdocs-macros-plugin==0.5.12
 mkdocs-material==7.1.9
 mkdocs-material-extensions==1.0.1
+openpyxl==3.0.9
 packaging==21.0
 Pygments==2.9.0
 pymdown-extensions==8.2

@@ -1,5 +1,5 @@
 site_name: My mkdocs template
-site_url: http://localhost/ # might be ignored... i removed it from the template
+site_url: http://127.0.0.1.nip.io/ # might be ignored... i removed it from the template
 use_directory_urls: true
 site_dir: ./public_html/
 #nav:
@@ -23,6 +23,7 @@ markdown_extensions:
   - wikilinks: { base_url: /_wiki/, html_class: btn btn-warning }
   - meta
   - attr_list
+  - pymdownx.extra # required for the begin_page, end_page - macros
   - pymdownx.tilde
   - pymdownx.superfences:
       custom_fences:

@@ -57,3 +57,40 @@ dd {
 .rst-content .section .admonition ul {
     margin-bottom: 0;
 }
+
+.wy-table-responsive table td, .wy-table-responsive table th {
+    white-space: normal;
+}
+
+table {
+    margin-bottom: 0.83em;
+}
+
+@media screen {
+    div.page {
+        border-bottom: 3px dashed lightgray;
+        margin-bottom: 24px;
+        margin-top: 24px;
+    }
+}
+
+@media print {
+    #doc-header, #doc-footer {
+        display: none;
+    }
+
+    .admonition, table, .codehilite, .toc {
+        page-break-inside: avoid;
+    }
+
+    div.page {
+        page-break-after: always;
+        page-break-inside: avoid;
+        border-bottom: none;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+}
+
+
+

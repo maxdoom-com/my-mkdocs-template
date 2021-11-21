@@ -4,8 +4,12 @@
 
 ## Standard Elements
 
+{{ lorem() }}
+
 > Please refer to the markdown documentation.
 
+
+{{ begin_page() }}
 
 ## Admonition
 
@@ -17,6 +21,9 @@
 !!! warning
     - foo
     - bar
+
+{{ end_page() }}
+
 
 ## Extensions
 
